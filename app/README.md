@@ -4,5 +4,5 @@
 ###使用方法：
 - 添加插件
 ![截图](/Captures/installPlugin.png)
-    
+[]()
   
