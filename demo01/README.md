@@ -66,6 +66,9 @@ compile 'io.reactivex:rxjava:1.1.6'
     观察者   :Subscribers
     被观察者 :Observables
     
+*具体使用，请见demo01*
+    
+    
 
     
 
