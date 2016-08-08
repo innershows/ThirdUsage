@@ -45,7 +45,7 @@ public class MyAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        ViewHolder vh = null;
+        ViewHolder vh;
         if (convertView == null) {
             convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item, parent, false);
             vh = new ViewHolder(convertView);
@@ -54,12 +54,12 @@ public class MyAdapter extends BaseAdapter {
             vh = (ViewHolder) convertView.getTag();
         }
 
-        vh.tv01.setText("312");
-        vh.tv02.setText(data.get(position));
+        vh.tv01.setText("fsdfsds ");
+
         return convertView;
     }
 
-
+    //这是自动生成的ViewHolder
     static class ViewHolder {
         @BindView(R.id.tv_01)
         TextView tv01;

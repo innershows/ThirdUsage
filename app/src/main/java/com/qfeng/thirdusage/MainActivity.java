@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         for (int index = 0; index < 20; index++) {
             data.add("隔壁老王" + index);
         }
+        data.add(getString(R.string.vertical_ellipsis));
 
         lv.setAdapter(new MyAdapter(data));
     }

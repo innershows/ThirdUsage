@@ -11,21 +11,21 @@
 dependencies {
      classpath 'com.android.tools.build:gradle:2.1.0'
      //添加下面这一句
-     **classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'**
+     classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
  }
 ```
 
 - Module的build.gradle
 ```groovy
 //添加插件的使用
-**apply plugin: 'android-apt'**
+apply plugin: 'android-apt'
 android {
   ...
 }
 dependencies {
    //添加依赖
-     **compile 'com.jakewharton:butterknife:8.2.1'
-     apt 'com.jakewharton:butterknife-compiler:8.2.1'**
+     compile 'com.jakewharton:butterknife:8.2.1'
+     apt 'com.jakewharton:butterknife-compiler:8.2.1'
 }
 ```
 
@@ -39,7 +39,7 @@ dependencies {
 #### 四、**大功告成**
 
 
-> 关于ViewHolder的资源的自动生成，请参考官方案例。
+> 关于ViewHolder资源的自动生成，请参考案例。
 
 
 

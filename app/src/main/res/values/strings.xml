@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ThirdUsage</string>
+    <string name="vertical_ellipsis">&#8942;</string>
 </resources>
