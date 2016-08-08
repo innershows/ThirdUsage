@@ -15,7 +15,7 @@
     2. [MVVM](https://gold.xitu.io/entry/56781baf00b01b78ac54c10a)
     3. [MVC](http://blog.csdn.net/feiduclear_up/article/details/46363207)
 
-#### 注意
+#### Notice:
 **上面的所有链接，都是别人使用之后的总结。可以看看， 加深理解。**
 
 ### Module分类
