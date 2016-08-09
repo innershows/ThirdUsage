@@ -27,7 +27,17 @@ compile 'com.mcxiaoke.volley:library:1.0.19'
 
 - 添加gradle依赖
 ```groovy
-compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    
+
+//如果想要使用Gson、RxAndroid，还需要：
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.1.6'
+    compile 'com.google.code.gson:gson:2.4'
+    //自动的json解析
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    //使用链式结构
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
 ```
 
 - 具体使用。见*[MainActivity.java](/demo03/src/main/java/com/qfeng/demo03/RetrofitDemo.java)*
