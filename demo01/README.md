@@ -1,7 +1,7 @@
 # EventBus 、RxAndroid 简单使用
 
 ###EventBus使用方法：
-> 官方代码地址:[EventBus]{https://github.com/greenrobot/EventBus}
+> 官方代码地址:[EventBus](https://github.com/greenrobot/EventBus)
 
     *EventBus的作用：事件解耦。可以用来任意传递事件*
 
@@ -48,8 +48,8 @@ dependencies {
 
 
 ###RxAndroid简单用法
-> 官方代码地址:[RxAndroid]{https://github.com/ReactiveX/RxAndroid}
-    
+> 官方代码地址:[RxAndroid](https://github.com/ReactiveX/RxAndroid)
+   
 *from Android大神 **JakeWharton***
 
 #### 一、添加gradle依赖
