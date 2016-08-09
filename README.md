@@ -11,9 +11,9 @@
     1. [Volley](http://bxbxbai.github.io/2014/09/14/android-working-with-volley/)
     2. [Retrofit](http://square.github.io/retrofit/)
 - 一些架构的模式：MVP、MVVM、MVC
-    1. [MVP](http://blog.csdn.net/vector_yi/article/details/24719873)
-    2. [MVVM](https://gold.xitu.io/entry/56781baf00b01b78ac54c10a)
-    3. [MVC](http://blog.csdn.net/feiduclear_up/article/details/46363207)
+    1. [MVC](http://blog.csdn.net/feiduclear_up/article/details/46363207)
+    2. [MVP](http://blog.csdn.net/vector_yi/article/details/24719873)
+    3. [MVVM](https://gold.xitu.io/entry/56781baf00b01b78ac54c10a)
 
 #### Notice:
 **上面的所有链接，都是别人使用之后的总结。可以看看， 加深理解。**
