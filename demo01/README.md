@@ -49,7 +49,7 @@ dependencies {
 
 ###RxAndroid简单用法
 > 官方代码地址:[RxAndroid]{https://github.com/ReactiveX/RxAndroid}
-    
+   
 *from Android大神 **JakeWharton***
 
 #### 一、添加gradle依赖
