@@ -1,4 +1,4 @@
-package com.qfeng.demo04.base.presenter;
+package com.qfeng.demo04.mvp.presenter;
 
 /**
  * Created by innershows on 16/8/9.

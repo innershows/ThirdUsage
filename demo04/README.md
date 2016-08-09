@@ -18,7 +18,7 @@ Model|View|Controller
 >这也是我们现在写代码的一个基本的模式。
 
 
-![MVC](http://img.blog.csdn.net/20150605112142444)
+![MVC](http://ww2.sinaimg.cn/large/675f4a91jw1ez7scy0za0j20gp0a574k.jpg)
 
 #### MVP
 M | V| P
@@ -33,9 +33,28 @@ Model|View|Presenter
 
 具体实例，请移步到*demo04/.../mvp/* 包名
 
-![MVP](http://img.blog.csdn.net/20150309135723885?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdmVjdG9yX3lp/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![MVP](http://ww4.sinaimg.cn/large/675f4a91jw1ez7sd6ci5uj20ex08zglv.jpg)
 
 #### MVVM
+M | V| VM
+---|---|---
+Model|View|ViewModel
+实体类/DAO|UI|DataBinding
 
+>类似于MVP，只是使用了DataBinding 技术，这种技术在前端应用比较广泛。
+Google也在依次IO大会上提出了这个概念。
+>现阶段来讲，这种vm模式还不是太成熟。了解即可。
 
+需要一些基本配置:主要是gradle
+```groovy
+android {
+    ....
+    dataBinding {
+        enabled = true
+    }
+}
+```
 
+具体实例，请移步到*demo04/.../mvvm/* 包名
+
+![MVVM](http://ww2.sinaimg.cn/large/675f4a91jw1ez7sdalj8zj20fg0brq37.jpg)

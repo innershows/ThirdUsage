@@ -1,4 +1,4 @@
-package com.qfeng.demo04.base.model;
+package com.qfeng.demo04.mvp.model;
 
 /**
  * Created by innershows on 16/8/9.

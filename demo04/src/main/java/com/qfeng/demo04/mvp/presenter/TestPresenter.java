@@ -1,9 +1,9 @@
-package com.qfeng.demo04.base.presenter;
+package com.qfeng.demo04.mvp.presenter;
 
 import android.os.Handler;
 
-import com.qfeng.demo04.base.model.Entity;
-import com.qfeng.demo04.base.ui.IView;
+import com.qfeng.demo04.mvp.model.Entity;
+import com.qfeng.demo04.mvp.ui.IView;
 
 import java.util.concurrent.TimeUnit;
 

@@ -1,4 +1,4 @@
-package com.qfeng.demo04.base.ui;
+package com.qfeng.demo04.mvp.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,8 +7,8 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 
 import com.qfeng.demo04.R;
-import com.qfeng.demo04.base.presenter.ITestPresenter;
-import com.qfeng.demo04.base.presenter.TestPresenter;
+import com.qfeng.demo04.mvp.presenter.ITestPresenter;
+import com.qfeng.demo04.mvp.presenter.TestPresenter;
 
 public class MVPTestActivity extends AppCompatActivity implements IView {
 

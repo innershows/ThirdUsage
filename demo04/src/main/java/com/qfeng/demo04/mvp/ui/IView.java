@@ -1,4 +1,4 @@
-package com.qfeng.demo04.base.ui;
+package com.qfeng.demo04.mvp.ui;
 
 /**
  * Created by innershows on 16/8/9.
